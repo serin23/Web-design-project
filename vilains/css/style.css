@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	min-height: 100vh;
+	line-height: 1.5rem;
+	background-color: #009dee;
+	margin: 0;
+	
+}
+
+.guide {
+	background-image: url(../img/guideline/guide.gif);
+}
+
+.contents {
+	width: 20rem;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 6.25rem;
+}	
+	
+
+
+.contents h1 {
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0.031rem;
+	margin-left: 0.031rem;
+	font-size: 1.88rem;
+	color:#ffffff;
+}
+
+.contents ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 2.83rem;
+	list-style-type: none;
+}
+
+.contents li {
+	background: #fff;
+	margin-bottom: 0.63rem;
+}
+
+.contents img{
+	float: left;
+	vertical-align: bottom;
+
+}
+
+.contents .words {
+	padding-left: 7.5rem;
+	padding-top: 1.25rem;
+	padding-bottom: 0.9rem;
+	/*background-color: #ffffff; */
+}
+
+.contents .words h5 {
+	font-size: 1rem;
+	color:#18526f;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 600;
+	line-height: 1;
+
+}
+
+.contents .words p {
+	margin: 0;
+	font-size: 0.88rem;
+	padding-top: 0.63rem;
+	line-height: 1;
+	font-weight: 300;
+	color: #939393;
+}
+
+.contents .words .date {
+	color: #60beee;
+	font-size: 0.63rem;
+	padding-left: 0.94rem;
+	font-weight: 300;
+	line-height: 1;
+	background: url(../img/svg/icon-time.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+
+
+.contents .words a{
+	text-decoration: none;
+	color: #d2d2d2;
+	font-size: 0.69rem;
+	font-weight:300;
+}
+
+.contents .words .fav{
+	margin-left: 2.3rem;
+	padding-left:1rem;
+	background-image: url(../img/svg/icon-star-deactive.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.contents .words .like {
+	margin-left: 0.2rem;
+	margin-right: 0;
+	padding-left: 1rem;
+	background-image: url(../img/svg/icon-heart-deactive.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+
